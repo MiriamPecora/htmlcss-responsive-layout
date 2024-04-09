@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(12, 137, 255);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 15px 15px 15px;
+}
+
+/* UTILITY */
+
+/* LAYOUT */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 100%;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+/* ALTEZZE FISSE */
+
+.h-400{
+    height: 400px;
+}
+
+.h-700{
+    height: 700px;
+}
+
+/* MARGIN */
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mb-40{
+    margin-bottom: 40px ;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+.header-list {
+    display: none;
+}
+
+
+
+
