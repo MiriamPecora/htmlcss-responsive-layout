@@ -71,7 +71,9 @@ header {
     display: none;
 }
 
-.purple-section{
+/* BGS */
+
+.purple-bg{
     background-color: rgb(162, 112, 228);
 }
 
