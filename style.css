@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-    background-color: rgb(12, 137, 255);
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 10px 15px 15px 15px;
 }
 
 footer {
@@ -34,11 +36,10 @@ footer {
 .col{
     width: 100%;
     background-color: beige;
-    border: 1px solid black;
 }
 
 .content{
-    text-align: center;
+    margin: 0 auto;
 }
 
 /* ALTEZZE FISSE */
@@ -71,6 +72,22 @@ footer {
 
 /* PADDING */
 
+.p-40 {
+    padding: 40px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-button {
+    padding: 10px 50px;
+}
+
+.p-top-sides-25{
+    padding: 25px 35px 0 25px;
+}
+
 /* MEDIA QUERIES */
 
 .header-list {
@@ -81,6 +98,86 @@ footer {
 
 .purple-bg{
     background-color: rgb(162, 112, 228);
+}
+
+.blue-bg {
+    background-color: rgb(12, 137, 255);
+}
+
+.light-blue-bg {
+    background-color: rgb(181, 214, 245);
+}
+
+/* TEXT CUSTOMIZATION */
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.txt-grey-bold {
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.blue-txt{
+    color:rgb(12, 137, 255);
+}
+
+.white-txt{
+    color: white;
+}
+
+.text-align {
+    text-align: center;
+}
+
+#jumbotron button {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* IMAGES CUSTOMIZATION */
+
+#logo-img {
+    width: 80px;
+}
+
+#burger-menu {
+    width: 30px;
+    height: 35px;
+}
+
+button img {
+    width: 15px;
+}
+
+#jumbo-img {
+    text-align: center;
+}
+
+#jumbo-img img {
+    width: 80%;  
+}
+
+.blue-img{
+    color: rgb(12, 137, 255);
+}
+
+/* BORDER */
+
+.border-radius{
+    border-radius: 40px;
+}
+
+button {
+    border: none;
 }
 
 
