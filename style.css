@@ -15,7 +15,7 @@ header {
 }
 
 footer {
-    background-color: rgb(61, 60, 60);
+    background-color: #333333;
 }
 
 /* UTILITY */
@@ -25,7 +25,6 @@ footer {
 .container {
     width: 85%;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 
 .row {
@@ -35,14 +34,13 @@ footer {
 
 .col{
     width: 100%;
-    background-color: beige;
 }
 
 .content{
     margin: 0 auto;
 }
 
-/* ALTEZZE FISSE */
+/* ALTEZZE FISSE
 
 .h-400{
     height: 400px;
@@ -50,7 +48,7 @@ footer {
 
 .h-700{
     height: 700px;
-}
+} */
 
 /* MARGIN */
 
@@ -101,15 +99,15 @@ footer {
 /* BGS */
 
 .purple-bg{
-    background-color: rgb(162, 112, 228);
+    background-color: #9792E4
 }
 
 .blue-bg {
-    background-color: rgb(12, 137, 255);
+    background-color: #0084FD
 }
 
 .light-blue-bg {
-    background-color: rgb(181, 214, 245);
+    background-color: #B5DDFF;
 }
 
 .white-bg{
@@ -133,8 +131,12 @@ h3 {
     font-size: 15px;
 }
 
+.txt-light-grey{
+    color: rgb(206, 206, 206);
+}
+
 .blue-txt{
-    color:rgb(12, 137, 255);
+    color:#0084FD;
 }
 
 .white-txt{
@@ -142,7 +144,11 @@ h3 {
 }
 
 .purple-txt {
-    color: purple;
+    color: #9792E4;
+}
+
+.orange-txt{
+    color: rgb(236, 158, 40);
 }
 
 .text-align {
@@ -174,6 +180,17 @@ h3 {
     font-size: 28px;
 }
 
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.font-size-60{
+    font-size: 60px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
 
 
 /* IMAGES CUSTOMIZATION */
@@ -200,7 +217,7 @@ button img {
 }
 
 .blue-img{
-    color: rgb(12, 137, 255);
+    color: #0084FD;
 }
 
 .purple-img{
